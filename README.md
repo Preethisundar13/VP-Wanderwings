@@ -55,13 +55,13 @@ VP-Wanderwings/
 Add your project screenshots here:
 
 * Home Page
-<img width="1127" height="878" alt="image" src="https://github.com/user-attachments/assets/5878c730-7c57-407f-a5a9-28f73506d222" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/5878c730-7c57-407f-a5a9-28f73506d222" />
 
 * Destination Section
-<img width="1123" height="870" alt="image" src="https://github.com/user-attachments/assets/5c21f602-2eb6-4c1d-a917-31e779dc6703" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/5c21f602-2eb6-4c1d-a917-31e779dc6703" />
 
 * Booking Page
-<img width="1128" height="869" alt="image" src="https://github.com/user-attachments/assets/8e92dc0a-ddcf-4202-ade6-68724883a47e" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/8e92dc0a-ddcf-4202-ade6-68724883a47e" />
 
 ---
 
