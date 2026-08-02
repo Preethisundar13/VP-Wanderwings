@@ -40,6 +40,7 @@ The project focuses on creating a user-friendly travel experience with an attrac
 VP-Wanderwings/
 
 │
+
 ├── index.html.         # Main HTML file
 
 ├── booking.html        # for the booking page
