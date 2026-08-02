@@ -38,14 +38,22 @@ The project focuses on creating a user-friendly travel experience with an attrac
 ## 📂 Project Structure
 
 VP-Wanderwings/
+
 │
-├── index.html          # Main HTML file
+├── index.html.         # Main HTML file
+
 ├── booking.html        # for the booking page
+
 ├── style.css           # Styling file
+
 ├── script.js           # JavaScript functionality
+
 │
+
 ├── images/             # Project images and assets
+
 │
+
 └── README.md           # Project documentation
 
 ---
