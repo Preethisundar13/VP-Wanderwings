@@ -21,6 +21,7 @@ if (bookingForm) {
     bookingForm.addEventListener("submit", function (event) {
         event.preventDefault();
         const destination = document.getElementById("destination").value;
+        const mode = document.getElementById("mode").value;
         const start = document.getElementById("start").value.trim();
         const date = document.getElementById("date").value;
         const tickets = document.getElementById("tickets").value;
@@ -32,6 +33,7 @@ if (bookingForm) {
         confirmationMessage.innerHTML = `
             <strong>🎉 Booking Confirmed!</strong><br><br>
             Destination: <b>${destination}</b><br>
+            Mode of Transport: <b>${mode}</b><br>
             Starting Point: <b>${start}</b><br>
             Travel Date: <b>${date}</b><br>
             Number of Tickets: <b>${tickets}</b><br><br>
