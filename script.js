@@ -17,10 +17,6 @@ if (loginForm) {
 }
     /*-------------------------------Booking Form------------------------------*/
 const bookingForm = document.getElementById("bookingForm");
-console.log("Destination:", destination);
-console.log("Start:", start);
-console.log("Date:", date);
-console.log("Tickets:", tickets);
 if (bookingForm) {
     bookingForm.addEventListener("submit", function (event) {
         event.preventDefault();
@@ -29,13 +25,13 @@ if (bookingForm) {
         const date = document.getElementById("date").value;
         const tickets = document.getElementById("tickets").value;
         const confirmationMessage = document.getElementById("confirmationMessage");
-        if (!destination || start === "" || date === "" || tickets === "") {
+        if (destination === "" || start === "" || date === "" || tickets === "") {
             alert("Please fill in all the booking details.");
             return;
         }
         confirmationMessage.innerHTML = `
             <strong>🎉 Booking Confirmed!</strong><br><br>
-            Destination: <b>${destination.value}</b><br>
+            Destination: <b>${destination}</b><br>
             Starting Point: <b>${start}</b><br>
             Travel Date: <b>${date}</b><br>
             Number of Tickets: <b>${tickets}</b><br><br>
