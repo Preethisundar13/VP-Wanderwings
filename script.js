@@ -20,7 +20,7 @@ const bookingForm = document.getElementById("bookingForm");
 if (bookingForm) {
     bookingForm.addEventListener("submit", function (event) {
         event.preventDefault();
-        const destination = document.querySelector('input[name="destination"]:checked');
+        const destination = document.getElementById("destination").value;
         const start = document.getElementById("start").value.trim();
         const date = document.getElementById("date").value;
         const tickets = document.getElementById("tickets").value;
