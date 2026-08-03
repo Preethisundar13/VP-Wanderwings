@@ -17,6 +17,10 @@ if (loginForm) {
 }
     /*-------------------------------Booking Form------------------------------*/
 const bookingForm = document.getElementById("bookingForm");
+console.log("Destination:", destination);
+console.log("Start:", start);
+console.log("Date:", date);
+console.log("Tickets:", tickets);
 if (bookingForm) {
     bookingForm.addEventListener("submit", function (event) {
         event.preventDefault();
